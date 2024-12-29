@@ -112,8 +112,15 @@ body {
     margin-left:3rem;
 }
 
-.intro p {
-    margin: 1rem 3rem;
+.intro .p1 {
+    margin-top: 20rem;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(222, 7, 222);
+
+}
+.intro .p2 {
+    margin: 1rem;
     font-size: 1.2rem;
     color: white;
     text-shadow: 3px 3px 5px rgb(222, 7, 222);
