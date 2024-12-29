@@ -6,22 +6,19 @@ body {
     background-color: rgb(156, 97, 212);
 }
 
-.hospital-header,
-header {
+.hospital-header, header {
     background-color: rgb(156, 97, 212);
     text-align: center;
     padding: 1rem;
 }
 
-.hospital-header h1,
-header h1 {
+.hospital-header h1, header h1 {
     color: rgb(69, 4, 69);
     text-transform: capitalize;
     margin: 0;
 }
 
-.hospital-header p,
-header p {
+.hospital-header p, header p {
     font-size: small;
     margin: 0.5rem 0 0;
     text-transform: lowercase;
@@ -82,62 +79,8 @@ header p {
     display: block;
 }
 
-
-
-.dropbtn:hover{
-    background-color: rgb(47, 0, 91);
-}
-
-
-#excellence {
-    display: none;
-    position: absolute;
-    left: 100%; 
-    top: 0;
-    background-color: rgb(188, 136, 241);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    visibility: hidden;
-}
-
-#surgical {
-    display: none;
-    position: absolute;
-    left: 100%; 
-    top: 0;
-    background-color: rgb(188, 136, 241);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    visibility: hidden;
-}
-
-#surgical:hover{
-    background-color: rgb(10, 10, 77);
-}
-
-#excellence:hover{
-    background-color: rgb(10, 10, 77);
-}
-
-
-
-#excellence1:hover + #excellence, 
-#excellence1:hover #excellence { 
-    display: block;
-    visibility: visible; 
-    text-align: left;
-}
-
-#surgical {
-    display: none;
-}
-
-#surgical1:hover + #surgical, 
-#surgical1:hover #surgical { 
-    display: block;
-    visibility: visible; 
+.dropdown:hover .dropbtn {
+    background-color: rgb(156, 97, 212);
 }
 
 .welcome {
@@ -152,7 +95,7 @@ header p {
     margin: 0 auto;
 }
 
-.hpic {
+.hpic{
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -163,20 +106,19 @@ header p {
     position: absolute;
 }
 
-.intro {
+.intro{
     text-align: center;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right:3rem;
+    margin-left:3rem;
 }
 
 .intro .p1 {
-    margin-top: 20rem;
+    margin-top: 25rem;
     font-size: 1.2rem;
     color: white;
     text-shadow: 3px 3px 5px rgb(222, 7, 222);
 
 }
-
 .intro .p2 {
     margin: 1rem;
     font-size: 1.2rem;
@@ -188,9 +130,17 @@ header p {
 .services {
     text-align: center;
     margin: 2rem auto;
+   
+}
+
+.services.h3{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+
 }
 
 .services ul {
+    margin-top: 4rem;
     list-style: none;
     padding: 0;
 }
@@ -246,9 +196,11 @@ footer {
     margin: 2rem 0;
 }
 
-h2 {
+.intro.p2 {
     text-align: center;
     margin: 1rem 0;
+    font-size: 1.2rem;
+   
 }
 
 .card {
@@ -279,3 +231,22 @@ h2 {
     display: block;
     margin: 0 auto;
 }
+
+body{
+   background-color: rgb(198, 150, 234);
+}
+.emergency-care h2{
+
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 2pxl;
+    font-style: oblique;
+}
+.discription p{
+    text-align: center;
+    margin-right:3rem;
+    margin-left:3rem;
+
+}
+
+  
