@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: rgb(198, 150, 234);
+ }
+ .emergency-care h2{
+    background-color:  rgb(156, 85, 210);
+     text-align: center;
+     margin: 2rem auto;
+     font-size: 30px;
+     font-style: normal
+ }
+ .discription p{
+     text-align: center;
+     margin-right:3rem;
+     margin-left:3rem;
+     font-style:normal;
+ 
+ }
+ .emergencyimg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+   
+ }
+ .emergency-services h3{
+     margin-top:25rem;
+     background-color: rgb(156, 85, 210);
+     text-align: center;
+     margin: 2rem auto;
+     font-size: 30px;
+     font-style:normal;
+ }
+
+ .treatment-services h4{
+     margin-top: 25rem;
+     text-align: center;
+     margin: 2rem auto;
+     font-size: 30px;
+     font-style:normal;
+ 
+ }
+   .treatment-services ul{
+    
+     text-align: center;
+     margin: 2rem auto;
+     font-size: 20px;
+     font-style:normal;
+ }
