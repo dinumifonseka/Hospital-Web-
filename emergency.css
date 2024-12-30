@@ -43,6 +43,15 @@ body{
      font-style:normal;
  
  }
+
+.discription h4{
+    font-size: 40px;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+
+
+ }
    .treatment-services ul{
     
      text-align: center;
