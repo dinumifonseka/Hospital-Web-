@@ -18,26 +18,27 @@ body{
  
  }
  .emergencyimg{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin: auto;
     object-fit: cover;
    
  }
  .emergency-services h3{
-     margin-top:25rem;
+     margin-top:100px;
      background-color: rgb(156, 85, 210);
      text-align: center;
-     margin: 2rem auto;
+     margin: auto;
      font-size: 30px;
      font-style:normal;
  }
 
  .treatment-services h4{
+     text-decoration: underline;
      margin-top: 25rem;
-     text-align: center;
-     margin: 2rem auto;
+     text-align:center;
+     margin:auto;
      font-size: 30px;
      font-style:normal;
  
@@ -45,7 +46,8 @@ body{
    .treatment-services ul{
     
      text-align: center;
-     margin: 2rem auto;
+     margin:2rem auto;
      font-size: 20px;
      font-style:normal;
+     list-style-position: inside;
  }
