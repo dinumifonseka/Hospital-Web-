@@ -1,24 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: rgb(156, 97, 212);
 }
 
-.hospital-header {
+.hospital-header{
     display: flex;
     align-items: center;
     background-color: rgb(156, 97, 212);
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    text-transform: lowercase;
 }
 
 .hospital-header img{
     width: 150px;
     height: 100px;
     object-fit: cover;
-    margin-right: 50px;
+    margin: 2px;
+  
     
     
 }
@@ -26,21 +28,31 @@ body {
 
 .hospital-header h1 {
     color: rgb(69, 4, 69);
-    text-transform: capitalize;
-    margin: 0;
+    text-transform:capitalize;
+    margin: 2px;
     text-transform: uppercase;
     text-align: center;
-    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
 .hospital-header p {
     font-size: small;
-    margin:0;
-    text-transform: uppercase;
-    
+    margin:0px;
+    margin-top: 0px;
+    text-transform: lowercase;
+    text-align:center;
+    padding-right: 2rem;
 }
-
+.logo {
+    width: 10px;
+    height: auto; 
+    display: block;
+    margin: 1px;
+    margin-left: 2px;
+    float: left;
+    object-fit: cover;
+}
 .navbar {
     background-color: rgb(188, 136, 241);
     padding: 0.1rem;
@@ -105,6 +117,7 @@ body {
     height: 25px;
     display:block;
     margin: 0 auto;
+    margin-right: 20px;
 }
 .welcome {
     text-align: center;

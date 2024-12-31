@@ -3,12 +3,29 @@
 body{
     background-color: rgb(198, 150, 234);
  }
+
+ .homepage {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: black;
+    background-color: seashell;
+    text-decoration: none; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    text-align: center;
+    margin: 10px 0;
+}
+
+.homepage:hover {
+    background-color: lightgray; 
+}
  .emergency-care h2{
     background-color:  rgb(156, 85, 210);
      text-align: center;
      margin: 2rem auto;
      font-size: 30px;
-     font-style: normal
+     font-style: normal;
  }
  .discription p{
      text-align: center;
