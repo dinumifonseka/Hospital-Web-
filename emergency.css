@@ -1,79 +1,84 @@
-
-
-body{
+body {
     background-color: rgb(198, 150, 234);
- }
+}
 
- .homepage {
+.homepage button{
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px; 
-    color: black;
-    background-color: seashell;
-    text-decoration: none; 
-    border: 2px solid black; 
-    border-radius: 5px; 
+    font-size: 16px;
+    color: white;
+    background-color: rgb(86, 0, 86);
+    text-decoration: none;
+    border: 1.5px solid rgb(86, 0, 86);
+    border-radius: 70px 20px 20px 70px;
     text-align: center;
     margin: 10px 0;
 }
 
-.homepage:hover {
-    background-color: lightgray; 
+.homepage:hover button{
+    background-color: rgb(156, 85, 210);
+    color:black;
+    border: 1.5px solid rgb(0, 0, 0);
 }
- .emergency-care h2{
-    background-color:  rgb(156, 85, 210);
-     text-align: center;
-     margin: 2rem auto;
-     font-size: 30px;
-     font-style: normal;
- }
- .discription p{
-     text-align: center;
-     margin-right:3rem;
-     margin-left:3rem;
-     font-style:normal;
- 
- }
- .emergencyimg{
+
+.emergency-care h2 {
+    background-color: rgb(156, 85, 210);
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.discription p {
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-style: normal;
+
+}
+
+.emergencyimg {
     width: 100px;
     height: 100px;
-    display:block;
+    display: block;
     margin: auto;
     object-fit: cover;
-   
- }
- .emergency-services h3{
-     margin-top:100px;
-     background-color: rgb(156, 85, 210);
-     text-align: center;
-     margin: auto;
-     font-size: 30px;
-     font-style:normal;
- }
 
- .treatment-services h4{
-     text-decoration: underline;
-     margin-top: 25rem;
-     text-align:center;
-     margin:auto;
-     font-size: 30px;
-     font-style:normal;
- 
- }
+}
 
-.discription h4{
+.emergency-services h3 {
+    margin-top: 100px;
+    background-color: rgb(156, 85, 210);
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.treatment-services h4 {
+    text-decoration: underline;
+    margin-top: 25rem;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-style: normal;
+
+}
+
+.discription h4 {
     font-size: 40px;
-    font-style:italic;
+    font-style: italic;
     font-weight: bold;
     text-align: center;
 
 
- }
-   .treatment-services ul{
-    
-     text-align: center;
-     margin:2rem auto;
-     font-size: 20px;
-     font-style:normal;
-     list-style-position: inside;
- }
+}
+
+.treatment-services ul {
+
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 20px;
+    font-style: normal;
+    list-style-position: inside;
+}
