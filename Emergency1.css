@@ -222,18 +222,20 @@ header h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 3rem;
 }
 
 .third h2 {
     color: black;
     font-size: 2rem;
     font-weight: 800;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     text-decoration: underline;
+    margin-bottom: 1rem;
 }
 
 .gg {
-    margin-top: 2rem;
+    margin-top: 1rem;
     gap: 2rem;
     flex-direction: row;
     display: flex;
@@ -249,5 +251,26 @@ header h1 {
     height: 15rem;
     background-color: var(--third-colour);
     border-radius: 20px;
-    border: 3px solid;
+    border: 3px solid var(--main-colour);
+}
+
+.ball:hover{
+    background-color: var(--main-colour);
+    border: 3px solid var(--third-colour);
+    transition: 0.2s ease-in-out;
+    width: 11rem;
+    height: 16rem;
+}
+
+.ball h1{
+    color: var(--main-colour);
+    font-size: 1.2rem;
+    font-weight: 600;
+   text-align: center;
+}
+
+.ball:hover h1{
+    color: white;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 1px;
 }
