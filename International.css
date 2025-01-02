@@ -1,28 +1,35 @@
-
-
-html{
+html {
     font-size: 62.5%;
     overflow-x: 0;
-    background-color: rgb(190, 135, 241);
 }
 
-.header{
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(156, 97, 212);
+}
+
+.header {
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(238, 47, 225);
-    width: 100%;
+        width: 100%;
     padding: 5%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     border: 5rem;
-    box-sizing:content-box;
+    box-sizing: content-box;
+    background-color: rgb(188, 136, 241);
+
 }
-nav a{
+
+nav a {
     color: white;
     font-size: 1.7rem;
     margin: 1rem;
@@ -32,51 +39,77 @@ nav a{
     box-shadow: none;
 }
 
-.section1 h1{
-    margin-top: 10rem;
-    margin-bottom: 3rem;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 4rem;
-    color:rgb(73, 24, 120)
-   
-}
 
-.right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50rem;
-    height: 25rem;
-    margin-left: 10rem;
-    background-color: var(--secondary-color);
-    border-radius: 30px;
-}
-
- .left{
-    display: flex;
-    float: right;
-    font-size: 3rem;
-    font-weight: 600;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50rem;
-    height: 25rem;
-    padding: 3rem 4rem;
-    margin-right: 10rem;
-    background-color: transparent;
-    
- }
-
- .homepage{
+.homepage button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(86, 0, 86);
+    text-decoration: none;
     border: 1.5px solid rgb(86, 0, 86);
     border-radius: 70px 20px 20px 70px;
     text-align: center;
     margin: 10px 0;
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: rgb(86, 0, 86);
-    text-decoration: none;
- }
+}
+
+.homepage:hover button {
+    background-color: rgb(156, 85, 210);
+    color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+.section1 {
+    width: 100%;
+}
+
+.section1 h1 {
+    color: maroon;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section1-2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+
+.section1 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+
+}
+
+.right img {
+    object-fit: cover;
+    width: 35rem;
+    height: 20rem;
+    border-radius: 10px;
+
+}
+
+.section1 .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    height: 10rem;
+    margin-right: 10rem;
+
+}
+
+.left p {
+    color: white;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
