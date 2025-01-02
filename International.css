@@ -1,4 +1,6 @@
-.html{
+
+
+html{
     font-size: 62.5%;
     overflow-x: 0;
     background-color: rgb(190, 135, 241);
@@ -12,17 +14,22 @@
     padding: 5%;
 }
 
-.nav{
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    border: 5rem;
+    box-sizing:content-box;
 }
-
-.nav a{
-    font-size: medium;
-    color: whitesmoke;
+nav a{
+    color: white;
+    font-size: 1.7rem;
     margin: 1rem;
+    font-weight: 700;
+    position: relative;
+    transition: 0.5s;
+    box-shadow: none;
 }
 
 .section1 h1{
@@ -42,22 +49,34 @@
     width: 50rem;
     height: 25rem;
     margin-left: 10rem;
+    background-color: var(--secondary-color);
     border-radius: 30px;
 }
 
  .left{
     display: flex;
     float: right;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 600;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 50rem;
     height: 25rem;
-    padding: 1rem 3rem;
+    padding: 3rem 4rem;
+    margin-right: 10rem;
     background-color: transparent;
-    color: rgb(73, 24, 120);
+    
+ }
 
-
+ .homepage{
+    border: 1.5px solid rgb(86, 0, 86);
+    border-radius: 70px 20px 20px 70px;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(86, 0, 86);
+    text-decoration: none;
  }
