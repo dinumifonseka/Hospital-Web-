@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --purple: #9c61d4;
+    --pink: #e23faf;
+    --white: #fff;
+    --blac:#000;
+}
+
+.homepage button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(86, 0, 86);
+    text-decoration: none;
+    border: 1.5px solid rgb(86, 0, 86);
+    border-radius: 70px 20px 20px 70px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.homepage:hover button{
+    background-color: rgb(156, 85, 210);
+    color:black;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+
+*{
+  font-family: "Roboto", serif;
+  margin: 0; padding: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 100;
+  outline: none;
+  box-sizing: border-box;
+  transition: all linear .5s;
+}
+
+html{
+    font-size:85%;
+    overflow-x: hidden;
+
+}
+
+header{
+    width: 100%;
+    background-color: #ea69c1;
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index:1000;
+
+}
+
+header a{
+    color: #fff;
+}
+
+header a:hover{
+    color: #ab57fb;
+}
+
+header .logo{
+    font-size: 4rem ;
+}
+header.logo span{
+    color: #ae61f6;
+}
+header.navbar ul{
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+     list-style: none;
+}
+
+header.navbar ul li{
+    margin: 0 1rem;
+
+}
+header.navbar ul li a{
+    font-size: 4rem;
+    color: #9c61d4;
+
+}
+
+header.navbar ul li a:hover{
+    color: #fff;
+
+}
+
+.fa-bar{
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    display: none
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+
+    header.fa-bar{
+        display: block;
+    
+}
+
+header.navbar{
+    position: fixed;
+    top:5.5rem; left: 0;
+    width: 100%;
+    background: #e23faf;
+}
+
+header.navbar ul{
+    flex-flow:row wrap;
+    padding:2rem 0;
+
+}
+header.navbar ul li{
+    margin: 1rem 0;
+    width:100% ;  
+    text-align: center;
+    flex-flow: row wrap;
+}
+header.navbar ul li a{
+    font-size: 3rem;
+    color:#000;
+
+}
+}
