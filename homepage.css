@@ -6,67 +6,53 @@ body {
     background-color: rgb(156, 97, 212);
 }
 
-header {
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-
-.hospital-header {
+.hospital-header{
     display: flex;
     align-items: center;
     background-color: rgb(156, 97, 212);
     text-align: center;
     padding: 2rem;
     text-transform: lowercase;
-    margin-top: -2rem;
-   
 }
 
-.logo img {
-    width: 120px;
-    height: 120px;
-    object-position: absolute;
+.hospital-header img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
     margin: 2px;
-    margin-left: -115rem;
-    margin-top: 0.15rem;
+  
+    
+    
 }
 
 
 .hospital-header h1 {
     color: rgb(69, 4, 69);
-    text-transform: capitalize;
+    text-transform:capitalize;
     margin: 2px;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
 }
 
 .hospital-header p {
     font-size: small;
-    margin: 0px;
+    margin:0px;
     margin-top: 0px;
     text-transform: lowercase;
-    text-align: center;
+    text-align:center;
     padding-right: 2rem;
 }
-
-.logo {
+.Logo {
     width: 10px;
-    height: auto;
+    height: 10px; 
     display: block;
     margin: 1px;
-    margin-left: 2px;
+    margin-left: 1px;
     float: left;
     object-fit: cover;
 }
-
 .navbar {
     background-color: rgb(188, 136, 241);
     padding: 0.1rem;
@@ -74,7 +60,7 @@ header {
 }
 
 .navbar a {
-   margin: 0.5rem;
+    margin: 0 1rem;
     color: #fff;
     text-decoration: none;
 }
@@ -126,14 +112,13 @@ header {
     background-color: rgb(156, 97, 212);
 }
 
-.logo {
+.logo{
     max-width: 100%;
     height: 25px;
-    display: block;
+    display:block;
     margin: 0 auto;
     margin-right: 20px;
 }
-
 .welcome {
     text-align: center;
     margin: 2rem auto;
@@ -146,7 +131,7 @@ header {
     margin: 0 auto;
 }
 
-.hpic {
+.hpic{
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -157,10 +142,10 @@ header {
     position: absolute;
 }
 
-.intro {
+.intro{
     text-align: center;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right:3rem;
+    margin-left:3rem;
 }
 
 .intro .p1 {
@@ -170,7 +155,6 @@ header {
     text-shadow: 3px 3px 5px rgb(222, 7, 222);
 
 }
-
 .intro .p2 {
     margin: 1rem;
     font-size: 1.2rem;
@@ -182,10 +166,10 @@ header {
 .services {
     text-align: center;
     margin: 2rem auto;
-
+   
 }
 
-.services.h3 {
+.services.h3{
     margin-top: 5rem;
     font-size: 1.5rem;
 
@@ -252,7 +236,7 @@ footer {
     text-align: center;
     margin: 1rem 0;
     font-size: 1.2rem;
-
+   
 }
 
 .card {
