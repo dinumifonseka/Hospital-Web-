@@ -2,7 +2,7 @@
 
 :root {
     --purple: #9c61d4;
-    --pink: #e23faf;
+    --pink: #9e2176;
     --white: #fff;
     --black: #000;
 }
@@ -16,7 +16,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #ea69c1;
+    background-color: #9e2176;
     position: fixed;
     top: 0;
     left: 50%;
@@ -89,7 +89,7 @@ header .navbar ul li a:hover {
         top: 5.5rem;
         left: 0;
         width: 100%;
-        background: #e23faf;
+        background: #9e2176;
     }
 
     .navbar ul {
@@ -171,6 +171,67 @@ main {
 .about-us p, .contact p {
     font-size: 1.2rem;
     color: #333;
+}
+.headline-box {
+    background-color: rgb(130, 18, 130);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.services-table {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.services-table h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+.services-table table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.services-table th, .services-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.services-table th {
+    background-color: rgb(86, 0, 86);
+    color: white;
+}
+
+.services-table td ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-table td ul li {
+    margin-bottom: 0.5rem;
+}
+
+.services-table td ul li a {
+    color: rgb(86, 0, 86);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.services-table td ul li a:hover {
+    color: rgb(156, 85, 210);
 }
 
 .channel-doctor form {
