@@ -49,22 +49,22 @@ header h1 {
 }
 
 
-
-.homepage {
+.homepage button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
+    color: white;
     background-color: rgb(86, 0, 86);
     text-decoration: none;
     border: 1.5px solid rgb(86, 0, 86);
     border-radius: 70px 20px 20px 70px;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
-.homepage:hover {
+.homepage:hover button {
     background-color: rgb(156, 85, 210);
-    color: rgb(78, 7, 67);
+    color: black;
     border: 1.5px solid rgb(0, 0, 0);
 }
 
@@ -193,4 +193,11 @@ header h1 {
 
 .ball:hover {
     transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: violet;
+    color: white;
 }

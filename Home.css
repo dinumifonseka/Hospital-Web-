@@ -120,7 +120,6 @@ header .navbar ul li a:hover {
     border-radius: 70px 20px 20px 70px;
     text-align: center;
     margin: 10px 0;
-    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
 .homepage:hover button {
@@ -128,7 +127,6 @@ header .navbar ul li a:hover {
     color: black;
     border: 1.5px solid rgb(0, 0, 0);
 }
-
 main {
     margin-top: 8rem;
     padding: 2rem;
