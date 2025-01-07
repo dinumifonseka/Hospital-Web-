@@ -61,6 +61,40 @@ header .navbar ul li a:hover {
     color: black;
 }
 
+
+.doctor-schedule {
+    padding: 2rem;
+    text-align: center;
+}
+.doctor-shedule h1{
+    font-size: 2rem;
+    color: rgb(86, 0, 86);
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.doctor-shedule table{
+    width:80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  
+
+}
+.doctor-schedule th, .doctor-schedule td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+
+}
+
+.doctor-schedule th {
+    background-color: rgb(86, 0, 86);
+    color: white;
+}
+
 .headline-box {
     background-color: rgb(86, 0, 86);
     color: white;
