@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pay Bills</title>
-    <link rel="stylesheet" href="paybill.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -15,31 +15,44 @@
         </a>
         <a href="#" class="logo"><span>C</span>are<span>C</span>ompass<span>H</span>ospitals</a>
         <nav class="navbar">
-            
         </nav>
     </header>
 
 
+    <section class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need further information, please feel free to contact us.</p>
+        <div class="contact-details">
+            <div class="detail">
+                <h3>Address</h3>
+                <p>123 Health St, Colombo, Sri Lanka</p>
+                <p>Address: 40,park St,kurunagala, Sri Lanka</p>
+                <p>Address: 145/D,Egodawatta St,Kandy, Sri Lanka</p>
+            </div>
+            <div class="detail">
+                <h3>Phone</h3>
+                <p>+94 11 123 4567</p>
+            </div>
+            <div class="detail">
+                <h3>Email</h3>
+                <p>info@carecompass.lk</p>
+            </div>
+        </div>
+    </section>
 
-    <section class="pay-bills">
-        <h2>Pay Your Bills Online</h2>
+    <section class="contact-form">
+        <h2>Contact Form</h2>
         <form action="#" method="post">
-            <label for="bill-number">Bill Number:</label>
-            <input type="text" id="bill-number" name="bill-number" required>
-
-            <label for="amount">Amount (LKR):</label>
-            <input type="number" id="amount" name="amount" required>
-
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
 
             <label for="email">Your Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="phone">Your Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-            <button type="submit">Pay Now</button>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 
@@ -54,7 +67,6 @@
                 <p>Email: info@carecompass.lk</p></p>
 
     </footer>
-
 </body>
 
 </html>

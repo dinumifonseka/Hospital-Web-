@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.homepage button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(86, 0, 86);
+    text-decoration: none;
+    border: 1.5px solid rgb(86, 0, 86);
+    border-radius: 70px 20px 20px 70px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.homepage:hover button {
+    background-color: rgb(156, 85, 210);
+    color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .navbar ul li {
+    display: inline;
+}
+
+header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header .navbar ul li a:hover {
+    color: rgb(156, 85, 210);
+}
+
+.headline-box {
+    background-color: rgb(86, 0, 86);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-us, .additional-info {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.about-us h2, .additional-info h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+
+.about-us p, .additional-info p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.director-board {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.director-board h2 {
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: rgb(86, 0, 86);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: violet;
+    color: white;
+    margin-top: 2rem;
+}
