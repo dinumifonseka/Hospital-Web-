@@ -32,14 +32,18 @@ header .search-bar button:hover {
     background-color: rgb(156, 85, 210);
 }
 
-
+.search-bar{
+    margin-top: 1rem;
+    margin-left: 58rem;
+    margin-bottom: -1.5rem;
+}
 
 .hospital-header img{
     width: 150px;
     height: 100px;
     object-fit: cover;
     margin: 2px;
-  
+  margin-right:53rem ;
     
     
 }
@@ -63,15 +67,7 @@ header .search-bar button:hover {
     text-align:center;
     padding-right: 2rem;
 }
-.Logo {
-    width: 10px;
-    height: 10px; 
-    display: block;
-    margin: 1px;
-    margin-left: 1px;
-    float: left;
-    object-fit: cover;
-}
+
 .navbar {
     background-color: rgb(188, 136, 241);
    
