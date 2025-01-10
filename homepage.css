@@ -12,6 +12,7 @@ body {
     background-color: rgb(156, 97, 212);
     text-align: center;
     padding: 2rem;
+    flex-direction: column;
     text-transform: lowercase;
 }
 
