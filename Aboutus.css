@@ -14,6 +14,7 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 .homepage button {
     display: inline-block;
     padding: 10px 20px;
@@ -32,6 +33,7 @@ header {
     color: black;
     border: 1.5px solid rgb(0, 0, 0);
 }
+
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -60,30 +62,21 @@ header .navbar ul li a:hover {
     color: rgb(156, 85, 210);
 }
 
-.headline-box {
-    background-color: rgb(86, 0, 86);
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.about-us, .additional-info {
+
+.about-us, .experience, .qualifications, .additional-info {
     text-align: center;
     margin-bottom: 2rem;
     padding: 0 2rem;
 }
 
-.about-us h2, .additional-info h2 {
+.about-us h2, .experience h2, .qualifications h2, .additional-info h2 {
     font-size: 2rem;
     color: #4a4a4a;
     margin-bottom: 1rem;
 }
 
-.about-us p, .additional-info p {
+.about-us p, .experience p, .qualifications p, .additional-info p {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 1rem;
