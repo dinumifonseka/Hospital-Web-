@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patient Login Portal</title>
+    <title>Patient Portal</title>
     <link rel="stylesheet" href="patientportal.css">
 </head>
 
@@ -15,53 +15,65 @@
         </a>
         <a href="#" class="logo"><span>C</span>are<span>C</span>ompass<span>H</span>ospitals</a>
         <nav class="navbar">
-        
+            <ul>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <div class="login-container">
-            <div class="login-box">
-                <h2>Patient Login</h2>
-                <div class="textbox">
-                    <input type="text" placeholder="Username" name="username" required>
+
+        <main class="main-content">
+            <h2>Welcome, [Patient Name]</h2>
+            <div class="card">
+                <h3>Profile</h3>
+                <img src="Images/demika.jpg" alt="pro pic">
+                <p>
+                   Full name: <br>
+                   Date of birth: <br>
+                   ID number:<br>
+
+                </p></div><br>
+
+            <section class="dashboard">
+                <div class="card">
+                    <h3>Upcoming Appointments</h3>
+                    <p>No upcoming appointments.</p>
                 </div>
-                <div class="textbox">
-                    <input type="password" placeholder="Password" name="password" required>
+                <div class="card">
+                    <h3>Recent Medical Records</h3>
+                    <p>No recent medical records.</p>
                 </div>
-                <div class="login-btn">
-                    <button type="submit">Login</button>
+                <div class="card">
+                    <h3>Recent Prescriptions</h3>
+                    <p>No recent prescriptions.</p>
                 </div>
-                <div class="signup-link">
-                    <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+                <div class="card">
+                    <h3>Billing Information</h3>
+                    <p>No outstanding bills.</p>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
     </div>
 
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
+                <img src="Logo/Logo.png" alt="Care Compass Hospitals" class="footer-logo">
                 <p class="branch-description">Care Compass Hospitals is dedicated to providing the best healthcare services in Sri Lanka.</p>
             </div>
             <div class="footer-section contact-info">
                 <h4>Contact Info</h4>
                 <p>Address: 123 Health St, Colombo, Sri Lanka</p>
+                <p>Address: 40,park St,kurunagala, Sri Lanka</p>
+                <p>Address: 145/D,Egodawatta St,Kandy, Sri Lanka</p>
                 <p>Phone: +94 11 123 4567</p>
                 <p>Email: info@carecompass.lk</p>
             </div>
-            <div class="footer-section quick-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="homepage.html">Home</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+        
         <div class="footer-bottom">
             <p>&copy; 2023 Care Compass Hospitals. All rights reserved.</p>
+        </div>
         </div>
     </footer>
 </body>

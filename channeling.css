@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ebbce5;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: violet;
+    background-color: rgb(199, 106, 199);
     padding: 1rem;
 }
 
@@ -149,6 +149,6 @@ header .navbar ul li a:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: violet;
+    background-color: rgb(221, 109, 221);
     color: white;
 }
