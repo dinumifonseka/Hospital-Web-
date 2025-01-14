@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: violet;
+    background-color: rgb(230, 104, 230);
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -141,7 +141,7 @@ header .navbar ul li a:hover {
 }
 
 .card:hover {
-    background-color: rgb(56, 11, 91);
+    background-color: rgb(183, 61, 224);
     box-shadow: 0 4px 8px rgb(156, 85, 210);
 }
 

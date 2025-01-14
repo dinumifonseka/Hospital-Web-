@@ -9,14 +9,14 @@
 
 body {
     font-family: "Roboto", serif;
-    background-color: #e4aedc;
+    background-color: #f3bafd;
     margin: 0;
     padding: 0;
 }
 
 header {
     width: 100%;
-    background-color: #8a3a71;
+    background-color: #b23bbd;
     position: fixed;
     top: 0;
     left: 50%;
@@ -44,7 +44,7 @@ header .logo {
 }
 
 header .logo span {
-    color: #ae61f6;
+    color: #5c1b72;
 }
 
 header .navbar ul {
@@ -60,7 +60,7 @@ header .navbar ul li {
 
 header .navbar ul li a {
     font-size: 1.2rem;
-    color: #9c61d4;
+    color: #e3c4e7;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ header .navbar ul li a:hover {
         top: 5.5rem;
         left: 0;
         width: 100%;
-        background: #9e2176;
+        background: #c32ad7;
     }
 
     .navbar ul {
@@ -153,7 +153,7 @@ main {
 
 .services h2, .about-us h2, .contact h2, .channel-doctor h2 {
     font-size: 2rem;
-    color: rgb(86, 0, 86);
+    color: rgb(76, 0, 86);
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -167,14 +167,86 @@ main {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(193, 56, 211, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.card ul li::before {
+    color: #da14af;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.card img {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+ .about-us h2 {
+    font-size: 2rem;
+    color: #5c1b72;
+    text-align: center;
+ }
 .about-us p, .contact p {
     font-size: 1.2rem;
     color: #333;
 }
 .headline-box {
-    background-color: rgb(130, 18, 130);
+    background-color: rgb(181, 43, 202);
     color: white;
     padding: 1.5rem;
     text-align: center;
