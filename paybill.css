@@ -28,13 +28,6 @@ header {
     margin: 10px 0;
 }
 
-.homepage:hover button {
-    background-color: rgb(156, 85, 210);
-    color: black;
-    border: 1.5px solid rgb(0, 0, 0);
-}
-
-
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;

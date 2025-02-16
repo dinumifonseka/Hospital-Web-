@@ -9,14 +9,14 @@
 
 body {
     font-family: "Roboto", serif;
-    background-color: #f3bafd;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
     width: 100%;
-    background-color: #b23bbd;
+    background-color: #e680ef;
     position: fixed;
     top: 0;
     left: 50%;
@@ -60,7 +60,7 @@ header .navbar ul li {
 
 header .navbar ul li a {
     font-size: 1.2rem;
-    color: #e3c4e7;
+    color: #4d2453;
     text-decoration: none;
 }
 
@@ -307,7 +307,20 @@ main {
     color: rgb(156, 85, 210);
 }
 
-.channel-doctor form {
+.aboutus {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutus:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}.channel-doctor form {
     display: flex;
     flex-direction: column;
     gap: 1rem;

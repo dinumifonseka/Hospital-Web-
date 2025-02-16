@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: rgb(156, 97, 212);
+    background-color: rgb(223, 193, 250);
 }
 
 .header {
@@ -107,6 +107,7 @@ body {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgb(126, 35, 142);
+    background-color: rgb(217, 122, 234);
     color: white;
 }
+

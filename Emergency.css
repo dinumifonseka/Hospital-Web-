@@ -6,7 +6,7 @@
 
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    background-color: #f2beff;
 }
 
 
@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgb(211, 67, 211);
+    background-color: rgb(241, 160, 241);
     padding: 1rem;
     height: 6rem; 
 }
@@ -166,14 +166,14 @@ header h1 {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2beff;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
     text-align: center;
-    background-color: rgb(200, 85, 208);
+    background-color: rgb(248, 168, 248);
     padding: 1rem;
 }
 
@@ -226,6 +226,6 @@ header h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgb(189, 89, 189);
+    background-color: rgb(234, 175, 234);
     color: white;
 }
